@@ -33,5 +33,5 @@ jobs:
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TF_VAR_server_id: ${{ secrets.TF_VAR_server_id }}
-          TF_VAR_discord_token: ${{ secrets.TF_VAR_discord_token }}
+          TF_VAR_server_id: ${{ secrets.TF_VAR_SERVER_ID }}
+          TF_VAR_discord_token: ${{ secrets.TF_VAR_DISCORD_TOKEN }}
