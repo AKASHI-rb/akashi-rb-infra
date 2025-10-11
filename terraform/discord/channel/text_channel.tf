@@ -31,3 +31,7 @@ resource "discord_text_channel" "this" {
   server_id = var.server_id
   position  = each.value.position
 }
+
+output hoge {
+  value = discord_text_channel.this
+}
