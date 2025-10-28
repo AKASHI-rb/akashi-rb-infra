@@ -20,6 +20,11 @@ locals {
       position = 3
       category = discord_category_channel.this["admin"].id
     }
+    "3d-printer" = {
+      name     = "3dプリンタ"
+      position = 4
+      category = discord_category_channel.this["text"].id
+    }
   }
 }
 
